@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Junior Backend Developer | Portfolio</title>
+  <!-- Google Fonts: Space Grotesk & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Space+Grotesk:wght@500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Marquee Banner -->
+  <div class="marquee-banner">
+    <div class="marquee-track">
+      <span>🚀 OPEN TO WORK: JUNIOR BACKEND DEVELOPER</span>
+      <span>•</span>
+      <span>PHP & LARAVEL SPECIALIST</span>
+      <span>•</span>
+      <span>MYSQL & POSTGRESQL</span>
+      <span>•</span>
+      <span>CLEAN DATABASE ARCHITECTURE</span>
+      <span>•</span>
+      <span>🚀 OPEN TO WORK: JUNIOR BACKEND DEVELOPER</span>
+      <span>•</span>
+      <span>PHP & LARAVEL SPECIALIST</span>
+      <span>•</span>
+      <span>MYSQL & POSTGRESQL</span>
+      <span>•</span>
+      <span>CLEAN DATABASE ARCHITECTURE</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#home" class="logo-box">
+        <span class="logo-tag">&lt;dev&gt;</span>
+        <span class="logo-title">PORTFOLIO</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        ☰ MENU
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-cta">Contact Me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="badge badge-accent mb-3">
+            ● AVAILABLE FOR HIRE
+          </div>
+          
+          <h1 class="hero-headline">
+            Junior Backend Developer
+            <span class="headline-sub">| PHP, Laravel & Relational Database</span>
+          </h1>
+
+          <div class="tagline-card mb-4">
+            <p class="tagline-text">
+              "Building reliable backend systems, structured databases, and practical web applications."
+            </p>
+          </div>
+
+          <p class="hero-summary mb-5">
+            Mahasiswa D4 Teknik Informatika yang berfokus pada Backend Development. Terbiasa membangun aplikasi web berbasis PHP dan framework Laravel, merancang skema database MySQL/PostgreSQL, serta mengelola alur logika bisnis dan integrasi sistem.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="nb-btn nb-btn-primary">
+              ⚡ Lihat Proyek
+            </a>
+            <a href="#contact" class="nb-btn nb-btn-secondary">
+              📬 Hubungi Saya
+            </a>
+            <a href="***" target="_blank" rel="noopener noreferrer" class="nb-btn nb-btn-outline">
+              📄 Unduh CV [***]
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="window-card">
+            <div class="window-header">
+              <span class="window-dot dot-red"></span>
+              <span class="window-dot dot-yellow"></span>
+              <span class="window-dot dot-green"></span>
+              <span class="window-title">backend_profile.php</span>
+            </div>
+            <div class="window-body">
+              <pre><code><span class="code-keyword">&lt;?php</span>
+
+<span class="code-keyword">namespace</span> App\Profile;
+
+<span class="code-keyword">class</span> <span class="code-class">BackendDeveloper</span>
+{
+    <span class="code-keyword">public string</span> <span class="code-var">$targetRole</span> = <span class="code-string">"Backend Developer"</span>;
+    <span class="code-keyword">public string</span> <span class="code-var">$education</span>  = <span class="code-string">"D4 Teknik Informatika"</span>;
+    
+    <span class="code-keyword">public array</span> <span class="code-var">$coreStack</span> = [
+        <span class="code-string">'PHP'</span>,
+        <span class="code-string">'Laravel'</span>,
+        <span class="code-string">'MySQL'</span>,
+        <span class="code-string">'PostgreSQL'</span>,
+        <span class="code-string">'C'</span>,
+        <span class="code-string">'Git'</span>
+    ];
+
+    <span class="code-keyword">public function</span> <span class="code-func">philosophy</span>(): <span class="code-keyword">string</span>
+    {
+        <span class="code-keyword">return</span> <span class="code-string">"Clean Schema &amp; Robust Business Logic"</span>;
+    }
+}
+<span class="code-comment">// Ready to contribute to your engineering team!</span></code></pre>
+            </div>
+          </div>
+          
+          <div class="floating-sticker sticker-1">
+            STABLE & RELIABLE
+          </div>
+          <div class="floating-sticker sticker-2">
+            MVC & ELOQUENT
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section border-top">
+      <div class="container">
+        <div class="section-badge">ABOUT ME</div>
+        <h2 class="section-title">Fondasi Kuat, Logika Terstruktur</h2>
+
+        <div class="about-grid">
+          <div class="nb-card about-card-main">
+            <h3 class="card-heading">Siapa Saya</h3>
+            <p class="about-paragraph">
+              Saya memiliki latar belakang pendidikan di bidang <strong>D4 Teknik Informatika</strong> dengan minat mendalam pada pengembangan sistem backend dan rekayasa web. Dalam proses belajar dan pengerjaan proyek akademik maupun pribadi, saya terbiasa menggunakan <strong>PHP</strong> dan framework <strong>Laravel</strong> untuk mengimplementasikan arsitektur aplikasi yang terstruktur, modular, dan mudah dikelola.
+            </p>
+            <p class="about-paragraph">
+              Fokus utama saya adalah memastikan integritas data, relasi database (<strong>MySQL &amp; PostgreSQL</strong>), serta logika pemrosesan data berjalan dengan efisien dan aman. Saya menikmati tantangan dalam memodelkan alur bisnis dunia nyata ke dalam skema database yang rapi serta membangun modul fungsional yang menyelesaikan kendala operasional pengguna.
+            </p>
+          </div>
+
+          <div class="about-sidebar">
+            <div class="nb-card info-stat-card bg-yellow">
+              <span class="stat-label">STATUS PENDIDIKAN</span>
+              <span class="stat-value">D4 Teknik Informatika</span>
+              <span class="stat-sub">Kampus: Politeknik Elektronika Negeri Surabaya</span>
+            </div>
+            
+            <div class="nb-card info-stat-card bg-cyan">
+              <span class="stat-label">TARGET POSISI</span>
+              <span class="stat-value">Backend Developer</span>
+              <span class="stat-sub">Software Engineer</span>
+            </div>
+
+            <div class="nb-card info-stat-card bg-pink">
+              <span class="stat-label">PENDEKATAN KERJA</span>
+              <span class="stat-value">Data-Driven &amp; Pragmatis</span>
+              <span class="stat-sub">Fokus pada integritas basis data</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section border-top bg-light">
+      <div class="container">
+        <div class="section-badge bg-green">SKILLS MATRIX</div>
+        <h2 class="section-title">Keahlian &amp; Stack Teknologi</h2>
+        <p class="section-subtitle">
+          Hanya teknologi yang benar-benar saya kuasai dan gunakan dalam pengerjaan proyek.
+        </p>
+
+        <div class="skills-grid">
+          <!-- Programming Languages -->
+          <div class="nb-card skill-group">
+            <div class="skill-header">
+              <span class="skill-icon">💻</span>
+              <h3 class="skill-group-title">Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="nb-tag bg-yellow">PHP</span>
+              <span class="nb-tag bg-cyan">C</span>
+            </div>
+            <p class="skill-note">
+              Pemahaman kuat tentang struktur data, algoritma dasar, pemrograman prosedural dan Object-Oriented Programming (OOP).
+            </p>
+          </div>
+
+          <!-- Backend Framework -->
+          <div class="nb-card skill-group">
+            <div class="skill-header">
+              <span class="skill-icon">⚙️</span>
+              <h3 class="skill-group-title">Backend Framework</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="nb-tag bg-orange">Laravel</span>
+            </div>
+            <p class="skill-note">
+              MVC Architecture, Eloquent ORM, Routing, Controllers, Database Migrations, Blade Templating, dan Middleware.
+            </p>
+          </div>
+
+          <!-- Database Management -->
+          <div class="nb-card skill-group">
+            <div class="skill-header">
+              <span class="skill-icon">🗄️</span>
+              <h3 class="skill-group-title">Database Management</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="nb-tag bg-blue">MySQL</span>
+              <span class="nb-tag bg-blue-deep">PostgreSQL</span>
+            </div>
+            <p class="skill-note">
+              Perancangan skema relasional, normalisasi tabel, index, foreign key constraints, dan relasi multi-entitas.
+            </p>
+          </div>
+
+          <!-- Tools & Version Control -->
+          <div class="nb-card skill-group">
+            <div class="skill-header">
+              <span class="skill-icon">🛠️</span>
+              <h3 class="skill-group-title">Tools &amp; Version Control</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="nb-tag bg-purple">Git</span>
+              <span class="nb-tag bg-white">GitHub</span>
+            </div>
+            <p class="skill-note">
+              Pengelolaan repository, commit tracking, branching, dan kolaborasi kode terstruktur.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section border-top">
+      <div class="container">
+        <div class="section-badge bg-orange">FEATURED PROJECT</div>
+        <h2 class="section-title">Portofolio Proyek</h2>
+        <p class="section-subtitle">
+          Bukti nyata implementasi arsitektur sistem backend dan relasi database.
+        </p>
+
+        <!-- Project 1: Perpustakaan Digital -->
+        <article class="project-featured-card">
+          <div class="project-header-bar">
+            <div class="project-title-area">
+              <span class="project-type-tag">AKADEMIK &amp; PRAKTIK MANDIRI</span>
+              <h3 class="project-name">Sistem Aplikasi Perpustakaan Digital</h3>
+            </div>
+            <div class="project-role-badge">
+              Role: Fullstack (Backend &amp; Frontend)
+            </div>
+          </div>
+
+          <div class="project-body-grid">
+            <div class="project-main-info">
+              <div class="project-section-block">
+                <h4 class="block-label">📌 Overview</h4>
+                <p>
+                  Aplikasi web berbasis Laravel untuk mendigitalisasi pengelolaan katalog buku, keanggotaan, dan transaksi peminjaman perpustakaan secara efisien dan terorganisir.
+                </p>
+              </div>
+
+              <div class="project-section-block">
+                <h4 class="block-label">⚠️ Problem</h4>
+                <p>
+                  Proses pencatatan sirkulasi buku, tracking status peminjaman, dan pendataan anggota yang dilakukan secara konvensional rawan redundansi data, kehilangan catatan transaksi, dan menyulitkan rekapitulasi data inventaris.
+                </p>
+              </div>
+
+              <div class="project-section-block">
+                <h4 class="block-label">💡 Solution</h4>
+                <p>
+                  Membangun aplikasi web terpusat dengan basis data relasional MySQL untuk mengotomatisasi pencatatan peminjaman, pengelolaan status anggota, dan pengelompokan buku berdasarkan kategori dengan integritas data yang terjamin.
+                </p>
+              </div>
+
+              <div class="project-section-block">
+                <h4 class="block-label">🚀 Fitur Utama</h4>
+                <ul class="feature-list">
+                  <li><strong>Manajemen Katalog Buku:</strong> Pendataan judul, pengarang, penerbit, dan pengelompokan kategori.</li>
+                  <li><strong>Manajemen Anggota:</strong> Pendataan identitas anggota perpustakaan secara terpusat.</li>
+                  <li><strong>Sistem Transaksi Peminjaman:</strong> Logika pencatatan sirkulasi peminjaman dan pengembalian buku.</li>
+                  <li><strong>Kategori &amp; Klasifikasi:</strong> Pemisahan entitas buku dengan relasi tabel kategori.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-meta-sidebar">
+              <div class="meta-box bg-yellow">
+                <h4 class="meta-title">TEKNOLOGI DIGUNAKAN</h4>
+                <div class="meta-tags">
+                  <span class="nb-tag bg-white">PHP</span>
+                  <span class="nb-tag bg-white">Laravel</span>
+                  <span class="nb-tag bg-white">MySQL</span>
+                  <span class="nb-tag bg-white">Git</span>
+                </div>
+              </div>
+
+              <div class="meta-box bg-cyan">
+                <h4 class="meta-title">PROSES PENGEMBANGAN</h4>
+                <ol class="process-steps">
+                  <li>Perancangan ERD relasi buku, kategori, anggota, &amp; peminjaman.</li>
+                  <li>Implementasi Database Migration &amp; Eloquent ORM.</li>
+                  <li>Pembuatan controller &amp; logika validasi request.</li>
+                  <li>Integrasi tampilan antarmuka (blade) dengan data backend.</li>
+                  <li>Version control menggunakan Git.</li>
+                </ol>
+              </div>
+
+              <div class="meta-box bg-white">
+                <h4 class="meta-title">HASIL &amp; METRIK</h4>
+                <p class="result-note">
+                  Aplikasi berfungsi fungsional untuk mengelola seluruh sirkulasi data buku dan anggota.
+                </p>
+                <div class="project-links mt-3">
+                  <a href="https://github.com/Kristt15/app-perpustakaan" target="_blank" rel="noopener noreferrer" class="nb-btn nb-btn-small nb-btn-dark w-100">
+                    GitHub Repo
+                  </a>
+                  <a href="***" target="_blank" rel="noopener noreferrer" class="nb-btn nb-btn-small nb-btn-outline w-100 mt-2">
+                    Live Demo [soon]
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Upcoming Projects Callout -->
+        <div class="future-project-banner mt-4">
+          <div class="future-banner-content">
+            <span class="badge badge-dark">NEXT IN PIPELINE</span>
+            <h4 class="future-title">Eksplorasi Mendalam Sistem PostgreSQL &amp; Arsitektur Modular</h4>
+            <p class="future-desc">
+              Sedang merancang implementasi sistem backend lanjutan dengan optimalisasi query database relasional yang lebih kompleks.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section border-top bg-light">
+      <div class="container">
+        <div class="section-badge bg-purple">TRACK RECORD</div>
+        <h2 class="section-title">Pengalaman Kerja &amp; Proyek</h2>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="nb-card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Project Developer (Akademik &amp; Pribadi)</h3>
+                  <span class="timeline-place">Politeknik / Proyek Mandiri</span>
+                </div>
+                <span class="timeline-badge">Periode: 2026</span>
+              </div>
+              <ul class="timeline-points">
+                <li>Merancang dan membangun aplikasi berbasis web untuk memenuhi kebutuhan tugas akademik dan implementasi mandiri.</li>
+                <li>Mengimplementasikan praktik version control menggunakan Git untuk setiap pembaruan kode dan manajemen branch.</li>
+                <li>Mengelola konfigurasi dan pengujian basis data lokal menggunakan MySQL dan PostgreSQL.</li>
+                <li>Menerjemahkan spesifikasi fungsional menjadi skema basis data relasional serta alur kode yang rapi.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section border-top">
+      <div class="container">
+        <div class="section-badge bg-blue">ACADEMIC BACKGROUND</div>
+        <h2 class="section-title">Pendidikan Formal</h2>
+
+        <div class="education-grid">
+          <div class="nb-card edu-card">
+            <div class="edu-top">
+              <span class="edu-degree">Diploma IV (D4)</span>
+              <span class="nb-tag bg-yellow">Teknik Informatika</span>
+            </div>
+            <h3 class="edu-institution">Politeknik Elektronika Negeri Surabaya</h3>
+            <p class="edu-year">Tahun Masuk - Tahun Lulus: 2025 - 2029</p>
+            <div class="edu-divider"></div>
+            <h4 class="edu-focus-title">Fokus Pembelajaran Utama:</h4>
+            <div class="edu-tags">
+              <span class="nb-tag bg-white">Rekayasa Perangkat Lunak</span>
+              <span class="nb-tag bg-white">Struktur Data &amp; Algoritma</span>
+              <span class="nb-tag bg-white">Pemrograman Berorientasi Objek (OOP)</span>
+              <span class="nb-tag bg-white">Sistem Basis Data Relasional</span>
+              <span class="nb-tag bg-white">Pemrograman Web</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section border-top bg-yellow-soft">
+      <div class="container">
+        <div class="section-badge bg-pink">GET IN TOUCH</div>
+        <h2 class="section-title">Mari Terhubung &amp; Berkolaborasi</h2>
+        <p class="section-subtitle">
+          Tertarik mendiskusikan peluang kerja, proyek kolaborasi, atau sekadar berbagi wawasan seputar backend development?
+        </p>
+
+        <div class="contact-grid">
+          <!-- Direct Links -->
+          <div class="nb-card contact-info-card">
+            <h3 class="card-heading">Kontak Langsung</h3>
+            <p class="mb-4">
+              Silakan hubungi saya melalui saluran komunikasi di bawah ini:
+            </p>
+
+            <div class="contact-link-list">
+              <a href="mailto:tiankris528@gmail.com" class="contact-item-row">
+                <span class="contact-icon">📧</span>
+                <div>
+                  <div class="contact-label">EMAIL</div>
+                  <div class="contact-value">tiankris528@gmail.com</div>
+                </div>
+              </a>
+
+              <a href="***" target="_blank" rel="noopener noreferrer" class="contact-item-row">
+                <span class="contact-icon">💻</span>
+                <div>
+                  <div class="contact-label">GITHUB</div>
+                  <div class="contact-value">github.com/kristt15</div>
+                </div>
+              </a>
+
+              <a href="***" target="_blank" rel="noopener noreferrer" class="contact-item-row">
+                <span class="contact-icon">💼</span>
+                <div>
+                  <div class="contact-label">LINKEDIN</div>
+                  <div class="contact-value">linkedin.com/in/Kristian-Putra</div>
+                </div>
+              </a>
+            </div>
+
+            <div class="mt-4">
+              <a href="***" target="_blank" rel="noopener noreferrer" class="nb-btn nb-btn-dark w-100 text-center">
+                📄 Download Resume / CV [***]
+              </a>
+            </div>
+          </div>
+
+          <!-- Interactive Message Box / Contact Form -->
+          <div class="nb-card contact-form-card">
+            <h3 class="card-heading">Kirim Pesan Cepat</h3>
+            <form id="contactForm" onsubmit="event.preventDefault(); alert('Terima kasih! Form ini siap dihubungkan ke email backend Anda.');">
+              <div class="form-group">
+                <label for="name" class="form-label">NAMA LENGKAP / PERUSAHAAN</label>
+                <input type="text" id="name" class="nb-input" placeholder="e.g. John Doe / Tech Corp" required>
+              </div>
+
+              <div class="form-group">
+                <label for="email" class="form-label">EMAIL ANDA</label>
+                <input type="email" id="email" class="nb-input" placeholder="e.g. john@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">PESAN / TAWARAN KERJA</label>
+                <textarea id="message" rows="4" class="nb-input nb-textarea" placeholder="Tuliskan pesan atau kebutuhan posisi backend Anda di sini..." required></textarea>
+              </div>
+
+              <button type="submit" class="nb-btn nb-btn-primary w-100">
+                🚀 KIRIM PESAN
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer border-top">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <strong>&lt;BACKEND DEVELOPER PORTFOLIO /&gt;</strong>
+        <p class="footer-copy">Built with HTML5, CSS3 &amp; Neobrutalism Design Aesthetic. Clean &amp; Honest.</p>
+      </div>
+      <div class="footer-right">
+        <a href="#home" class="back-to-top">⬆ KEMBALI KE ATAS</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile navigation toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
+
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      menuToggle.textContent = navMenu.classList.contains('active') ? '✕ TUTUP' : '☰ MENU';
+    });
+
+    // Close menu when clicking links on mobile
+    document.querySelectorAll('.nav-link, .nav-cta').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        menuToggle.textContent = '☰ MENU';
+      });
+    });
+  </script>
+</body>
+</html>
